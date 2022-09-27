@@ -1,0 +1,110 @@
+@font-face{
+    font-family: 'bootstrap-icons';
+    src: url('../fonts/bootstrap-icons.woff'), url('../fonts/bootstrap-icons.woff2');
+}
+@font-face {
+    font-family: 'charlie';
+    src: url('../fonts/Charlie.ttf');
+}
+body{
+    background: rgb(244,242,255);
+    background: linear-gradient(90deg, rgba(244,242,255,1) 0%, rgba(221,220,220,1) 71%);
+}
+*{
+    font-family: 'charlie', sans-serif;
+    letter-spacing: 0.05em;
+}
+form{
+    margin-top: 40PX;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.sec{
+    margin-top: 60px;
+}
+.sec1{
+    margin-top: 100px;
+}
+.present{
+    margin-top: 100PX;
+    margin-left: 100PX;
+}
+.btn{
+    font-size: 20px;
+}
+h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+p{
+    font-size: 20PX;
+}
+.view{
+    width: 100%;
+}
+.co::before{
+    content: "+";
+
+}
+.co:focus:before{
+    content:"-";
+}
+.view1{
+    width: 100%;
+}
+.co1::before{
+    content: "+";
+
+}
+.co1:focus:before{
+    content:"-";
+}
+section{
+    margin-bottom: 110px;
+}
+.sec3{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 40PX 0;
+}
+
+
+.capture{
+    background-image: url(../img/Capture.jpg);
+    padding: 40px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+.bi-quote{
+    margin-left: 400px;
+    font-size: 50px;
+}
+.sec4{
+    background-color: #E6FCFF;
+    padding: 100px 0;
+}
+.bg{
+    border-bottom: 4px solid black;
+}
+.navb{
+    margin-left: 120px;
+}
+.links a{
+    color:grey;
+    margin: 0 10px;
+}
+.atl{
+    width: 150px;
+    padding: 10px 0;
+    margin: auto;
+}
+select{
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    border: none;
+    color: rgb(185, 185, 185);
+}
